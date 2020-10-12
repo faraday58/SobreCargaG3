@@ -21,6 +21,14 @@ namespace SobreCargaG3
 
         }
 
-       
+        private void btnSumar21_Click(object sender, EventArgs e)
+        {
+            Funciones miFuncion = new Funciones();
+            float a = float.Parse(txtbOper22.Text);
+            float b = float.Parse(txbOper21.Text);
+            float c = float.Parse(txtbOper23.Text);
+            lbResultado21.Text = miFuncion.sumar(a, b, c).ToString();
+
+        }
     }
 }

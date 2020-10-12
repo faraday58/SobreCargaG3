@@ -34,6 +34,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lbResultado = new System.Windows.Forms.Label();
             this.btnSumar = new System.Windows.Forms.Button();
+            this.txbOper21 = new System.Windows.Forms.TextBox();
+            this.txtbOper22 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbResultado21 = new System.Windows.Forms.Label();
+            this.btnSumar21 = new System.Windows.Forms.Button();
+            this.txtbOper23 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtbOperando1
@@ -52,7 +60,6 @@
             this.label1.Size = new System.Drawing.Size(18, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "+";
-            
             // 
             // txtbOperando2
             // 
@@ -90,15 +97,93 @@
             this.btnSumar.UseVisualStyleBackColor = true;
             this.btnSumar.Click += new System.EventHandler(this.btnSumar_Click);
             // 
+            // txbOper21
+            // 
+            this.txbOper21.Location = new System.Drawing.Point(38, 172);
+            this.txbOper21.Name = "txbOper21";
+            this.txbOper21.Size = new System.Drawing.Size(44, 26);
+            this.txbOper21.TabIndex = 0;
+            this.txbOper21.Text = "2";
+            // 
+            // txtbOper22
+            // 
+            this.txtbOper22.Location = new System.Drawing.Point(160, 172);
+            this.txtbOper22.Name = "txtbOper22";
+            this.txtbOper22.Size = new System.Drawing.Size(50, 26);
+            this.txtbOper22.TabIndex = 0;
+            this.txtbOper22.Text = "4";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(120, 175);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(18, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "+";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(364, 175);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(18, 20);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "=";
+            // 
+            // lbResultado21
+            // 
+            this.lbResultado21.AutoSize = true;
+            this.lbResultado21.Location = new System.Drawing.Point(425, 175);
+            this.lbResultado21.Name = "lbResultado21";
+            this.lbResultado21.Size = new System.Drawing.Size(18, 20);
+            this.lbResultado21.TabIndex = 1;
+            this.lbResultado21.Text = "6";
+            // 
+            // btnSumar21
+            // 
+            this.btnSumar21.Location = new System.Drawing.Point(487, 169);
+            this.btnSumar21.Name = "btnSumar21";
+            this.btnSumar21.Size = new System.Drawing.Size(120, 33);
+            this.btnSumar21.TabIndex = 2;
+            this.btnSumar21.Text = "Sumar";
+            this.btnSumar21.UseVisualStyleBackColor = true;
+            this.btnSumar21.Click += new System.EventHandler(this.btnSumar21_Click);
+            // 
+            // txtbOper23
+            // 
+            this.txtbOper23.Location = new System.Drawing.Point(289, 172);
+            this.txtbOper23.Name = "txtbOper23";
+            this.txtbOper23.Size = new System.Drawing.Size(50, 26);
+            this.txtbOper23.TabIndex = 0;
+            this.txtbOper23.Text = "4";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(235, 178);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(18, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "+";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(710, 268);
+            this.ClientSize = new System.Drawing.Size(775, 379);
+            this.Controls.Add(this.btnSumar21);
+            this.Controls.Add(this.lbResultado21);
             this.Controls.Add(this.btnSumar);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lbResultado);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtbOper23);
+            this.Controls.Add(this.txtbOper22);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.txbOper21);
             this.Controls.Add(this.txtbOperando2);
             this.Controls.Add(this.txtbOperando1);
             this.Name = "Form1";
@@ -116,6 +201,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.Button btnSumar;
+        private System.Windows.Forms.TextBox txbOper21;
+        private System.Windows.Forms.TextBox txtbOper22;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbResultado21;
+        private System.Windows.Forms.Button btnSumar21;
+        private System.Windows.Forms.TextBox txtbOper23;
+        private System.Windows.Forms.Label label6;
     }
 }
 
