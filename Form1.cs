@@ -10,6 +10,7 @@ namespace SobreCargaG3
             InitializeComponent();
         }
 
+           //Funciones
         private void btnSumar_Click(object sender, EventArgs e)
         {
             Funciones miFuncion = new Funciones();
